@@ -4,7 +4,7 @@
 #include <unistd.h>
 
 void handle_sigint(int sig) {
-    printf("Yeah!\n");
+    printf("Yeah!");
 }
 
 void handle_sigup(int sig) {
