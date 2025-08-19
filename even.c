@@ -15,7 +15,7 @@ void handle_sigup(int sig) {
 int main(int argc, char *argv[])
 {
     signal(SIGINT, handle_sigint);
-    signal(SIGHUP, handle_sigup);
+    //signal(SIGHUP, handle_sigup);
     int number;
     printf("Give me number: ");
     scanf("%i", &number);
